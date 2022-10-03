@@ -1,0 +1,9 @@
+[
+   {"id": "1","name": "Voli", "time:": "Time required 20-30M", "img":"https://cdn.britannica.com/08/190908-131-A6B6D47D/Volleyball-match.jpg"},
+   {"id": "2","name": "Basket", "time:": "Time required 20-30M", "img":"https://cdn.britannica.com/44/193844-050-11485B18/ball-net-basketball-game-arena.jpg?q=60"},
+   {"id": "3","name": "Cricket", "time:": "Time required 20-30M", "img":"https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/305900/305964.jpg"},
+   {"id": "4","name": "Holi", "time:": "Time required 20-30M", "img":"https://media.istockphoto.com/photos/hockey-picture-id134114864?k=20&m=134114864&s=612x612&w=0&h=NfECClNkuR5rYbl_W4JCxF1Zspc03s98EvlVitpAegI="},
+   {"id": "5","name": "stick", "time:": "Time required 20-30M", "img":"https://m.media-amazon.com/images/I/61IUy9GAkSL._AC_SL1500_.jpg"},
+   {"id": "6","name": "Tenis", "time:": "Time required 20-30M", "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Roland_Garros_2012_Ballkid.jpg/1200px-Roland_Garros_2012_Ballkid.jpg"},
+   {"id": "7","name": "Football", "time:": "Time required 20-30M", "img":"https://images.unsplash.com/photo-1614632537190-23e4146777db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80"}
+]

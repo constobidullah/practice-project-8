@@ -1,0 +1,18 @@
+.header-component{
+   color:rgb(74, 129, 248);
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   height: 50px;
+
+}
+
+.header-component img {
+   width: 50px;
+   height: 50px;
+   border-radius: 150px;
+}
+
+.header-under-text {
+   margin: 20px;
+}
