@@ -1,0 +1,28 @@
+.cart-item {
+   width: 350px;
+   border: 2px solid steelblue;
+   border-radius: 20px;
+   margin: 10px;
+   position: relative;
+}
+.cart-item img {
+   width: 100%;
+   border-radius: 20px;
+}
+
+.cart-item-text{
+   margin-bottom: 0;
+}
+
+.cart-item-btn{
+   position: absolute;
+   bottom: 0;
+}
+
+.cart-item-btn button {
+   width: 350px;
+   background-color: cadetblue;
+   padding: 15px;
+   border: none;
+   border-radius: 7px;
+}
