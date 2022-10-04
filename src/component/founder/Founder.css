@@ -1,0 +1,75 @@
+
+.founder-container{
+   background-color:whitesmoke;
+   padding: 20px;
+}
+
+.founder-main {
+   display: flex;
+   align-items: center;
+}
+
+.founder-main img {
+   width: 70px;
+   height: 70px;
+   border-radius: 60%;
+}
+
+.founder-text {
+   line-height: 0px;
+   padding-left: 20px;
+}
+
+.founder-body-details {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+   background-color:rgb(194, 194, 221);
+   border-radius: 10px;
+   line-height: 0;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.add-break{
+   background-color:rgb(194, 194, 221);
+   justify-content: space-around;
+   display: flex;
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 80px;
+}
+
+.add-break div {
+   background-color:rgb(204, 206, 206);
+   border-radius: 50%;
+}
+
+.add-break div p {
+   padding: 3px;
+   font-weight: 600;
+}
+
+.sports-details {
+   margin-bottom: 100px;
+}
+
+.sport-time {
+   display: flex;
+   justify-content: space-around;
+   background-color:rgb(194, 194, 221);
+   border-radius: 10px;
+}
+
+.activity-complete-btn{
+   background-color: rgb(196, 145, 245);
+   color: white;
+   padding: 1px;
+   border-radius: 5px;
+}
+.activity-complete-btn p {
+   text-align: center;
+   font-size: 20px;
+   font-weight: 800;
+}

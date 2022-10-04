@@ -5,9 +5,10 @@ const CartItem = (props) => {
    return (
       <div className='cart-item'>
          <img src={img} alt="images" />
+
          <div className='cart-item-text'>
             <h2>{name}</h2>
-            <p>Onsectetur adipisicing elit. Maiores, deserunt quasi. Eius quisquam recusandae accusantium?</p>
+            <p>{time}</p>
          </div>
 
          <div className='cart-item-btn'>

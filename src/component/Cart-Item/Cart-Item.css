@@ -1,9 +1,10 @@
 .cart-item {
    width: 350px;
-   border: 2px solid steelblue;
-   border-radius: 20px;
+   background-color:gainsboro;
+   border-radius: 10px;
    margin: 10px;
    position: relative;
+   padding: 10px;
 }
 .cart-item img {
    width: 100%;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CartItem from '../Cart-Item/Cart-Item';
+import Founder from '../founder/Founder';
 import './Cart.css'
 const Cart = () => {
    const [carts, setCarts] = useState([]);
@@ -20,7 +21,7 @@ const Cart = () => {
          </div>
 
          <div>
-            <h2>Founder compo</h2>
+            <Founder></Founder>
          </div>
 
       </div>
