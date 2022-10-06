@@ -20,7 +20,10 @@ const Founder = ({ cart }) => {
       total = total + isNaN(add.time);
    }
 
-   // toast.success();
+   const handleBreakTime = id => {
+      console.log(id)
+   }
+    // toast.success();
 
    return (
       <div className='founder-container'>
@@ -63,11 +66,12 @@ const Founder = ({ cart }) => {
 
          <div className='add-break'>
 
+
             <div>
                <p>10</p>
             </div>
             <div>
-               <p >20</p>
+               <p onClick={() => handleBreakTime(20)}>20</p>
             </div>
             <div>
                <p >30</p>
@@ -87,14 +91,14 @@ const Founder = ({ cart }) => {
 
             <div className='sport-time'>
                <h5>Sports time</h5>
-               <p>{total} </p>
+               <p>{total} hours</p>
             </div>
 
             <br />
 
             <div className='sport-time'>
                <h5>Break time</h5>
-               <p> minute </p>
+               <p> {handleBreakTime()} minute </p>
             </div>
 
          </div>
