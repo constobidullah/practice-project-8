@@ -1,20 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../images/founder.jpg';
+import { ToastContainer, toast, Zoom, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from 'axios';
 import './Founder.css';
 
-const Founder = ({cart}) => {
+const Founder = ({ cart }) => {
+
+   const successToast = () => {
+      toast("You are activity completed successfully" ,{
+         className: "Custome-toast", 
+         draggable: true,
+         position: toast.POSITION.TOP_CENTER
+      })
+   }
 
    let total = 0;
-   for(const add of cart){
+   for (const add of cart) {
       total = total + isNaN(add.time);
    }
-   
-   const addBreak = id => {
-      console.log(id)
-   }
+
+   // toast.success();
 
    return (
       <div className='founder-container'>
+
+         <ToastContainer draggable={false} transition={Zoom} autoClose={15000}/>
+
 
          <div className='founder-main'>
 
@@ -50,7 +62,7 @@ const Founder = ({cart}) => {
          <h3>Add a break</h3>
 
          <div className='add-break'>
-            
+
             <div>
                <p>10</p>
             </div>
@@ -68,7 +80,7 @@ const Founder = ({cart}) => {
             </div>
 
          </div>
-         
+
          <h3>Sports details </h3>
 
          <div className='sports-details'>
@@ -88,7 +100,7 @@ const Founder = ({cart}) => {
          </div>
 
          <div className='activity-complete-btn'>
-            <button>Activity completed</button>
+            <button onClick={successToast}>Activity completed</button>
          </div>
       </div>
    );
