@@ -9,6 +9,10 @@ const Founder = ({cart}) => {
       total = total + isNaN(add.time);
    }
    
+   const addBreak = id => {
+      console.log(id)
+   }
+
    return (
       <div className='founder-container'>
 
@@ -48,7 +52,7 @@ const Founder = ({cart}) => {
          <div className='add-break'>
             
             <div>
-               <p >10</p>
+               <p>10</p>
             </div>
             <div>
                <p >20</p>
@@ -71,7 +75,7 @@ const Founder = ({cart}) => {
 
             <div className='sport-time'>
                <h5>Sports time</h5>
-               <p>{total} hours</p>
+               <p>{total} </p>
             </div>
 
             <br />
