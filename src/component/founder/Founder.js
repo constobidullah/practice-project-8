@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../images/founder.jpg';
-import './Founder.css'
-const Founder = () => {
+import './Founder.css';
+
+const Founder = ({cart}) => {
+
+   let total = 0;
+   for(const add of cart){
+      total = total + isNaN(add.time);
+   }
+   
    return (
       <div className='founder-container'>
 
@@ -41,20 +48,21 @@ const Founder = () => {
          <div className='add-break'>
             
             <div>
-               <p>10m</p>
+               <p >10</p>
             </div>
             <div>
-               <p>20m</p>
+               <p >20</p>
             </div>
             <div>
-               <p>30m</p>
+               <p >30</p>
             </div>
             <div>
-               <p>40m</p>
+               <p >40</p>
             </div>
             <div>
-               <p>50m</p>
+               <p>50</p>
             </div>
+
          </div>
          
          <h3>Sports details </h3>
@@ -63,18 +71,20 @@ const Founder = () => {
 
             <div className='sport-time'>
                <h5>Sports time</h5>
-               <p>0 seconds </p>
+               <p>{total} hours</p>
             </div>
+
             <br />
+
             <div className='sport-time'>
                <h5>Break time</h5>
-               <p>0 seconds </p>
+               <p> minute </p>
             </div>
 
          </div>
 
          <div className='activity-complete-btn'>
-            <p>Activity completed</p>
+            <button>Activity completed</button>
          </div>
       </div>
    );

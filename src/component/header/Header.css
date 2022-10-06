@@ -1,6 +1,7 @@
 .header-component{
    color:rgb(74, 129, 248);
-   margin: 20px;
+   margin-left: 50px;
+   margin-top: 50px;
    display: flex;
    align-items: center;
    height: 50px;
@@ -14,5 +15,5 @@
 }
 
 .header-under-text {
-   margin: 20px;
+   margin-left: 50px;
 }

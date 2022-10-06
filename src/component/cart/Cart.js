@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import CartItem from '../Cart-Item/Cart-Item';
 import Founder from '../founder/Founder';
-import './Cart.css'
+import './Cart.css';
+
+
 const Cart = () => {
    const [carts, setCarts] = useState([]);
+   const [add, setAdd] = useState([]);
 
    useEffect(() => {
       fetch('fakeAPI.json')
@@ -11,17 +14,22 @@ const Cart = () => {
          .then(data => setCarts(data))
    }, []);
 
+   const addToListBtn = (added) => {
+      const newAdd = [...add, added];
+      setAdd(newAdd);
+   }
+
 
    return (
       <div className='cart-container'>
          <div className='item-container'>
             {
-               carts.map(cart => <CartItem cart={cart} key={cart.id}></CartItem>)
+               carts.map(cart => <CartItem cart={cart} key={cart.id} addToListBtn={addToListBtn}></CartItem>)
             }
          </div>
 
-         <div>
-            <Founder></Founder>
+         <div className='founder-compo'>
+            <Founder cart={add}></Founder>
          </div>
 
       </div>

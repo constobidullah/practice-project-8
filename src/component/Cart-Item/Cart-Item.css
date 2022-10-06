@@ -1,6 +1,6 @@
 .cart-item {
    width: 350px;
-   background-color:gainsboro;
+   background-color:whitesmoke;
    border-radius: 10px;
    margin: 10px;
    position: relative;
@@ -12,7 +12,7 @@
 }
 
 .cart-item-text{
-   margin-bottom: 0;
+   margin-bottom: 50px;
 }
 
 .cart-item-btn{
@@ -22,8 +22,9 @@
 
 .cart-item-btn button {
    width: 350px;
-   background-color: cadetblue;
+   background-color: rgb(226, 192, 233);
    padding: 15px;
+   font-size: 20px;
    border: none;
    border-radius: 7px;
-}
+};

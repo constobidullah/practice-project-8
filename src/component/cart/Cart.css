@@ -1,8 +1,7 @@
-.cart-container{
+.cart-container {
    display: grid;
    grid-template-columns: 4fr 1fr;
    margin: 30px;
-   background-color: rgb(239, 239, 243);
 }
 
 .item-container {
