@@ -17,7 +17,7 @@ const Founder = ({ cart }) => {
 
    let total = 0;
    for (const add of cart) {
-      total = total + isNaN(add.time);
+      total = total + add.time;
    }
 
    const handleBreakTime = id => {

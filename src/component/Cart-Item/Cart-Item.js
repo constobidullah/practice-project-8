@@ -9,14 +9,16 @@ const CartItem = (props) => {
          <img src={img} alt="images" />
 
          <div className='cart-item-text'>
+
             <h2>{name}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illum iste nisi atque tempore architecto, maxime reiciendis. Dolor, inventore quidem.</p>
             <p><strong>Age:</strong> {age} </p>
             <p><strong>Time required : </strong>{time}</p>
+
          </div>
 
          <div className='cart-item-btn'>
-            <button onClick={() => addToListBtn(props)}>Add to list </button>
+            <button onClick={() => addToListBtn(props.cart)}>Add to list </button>
          </div>
       </div>
    );
