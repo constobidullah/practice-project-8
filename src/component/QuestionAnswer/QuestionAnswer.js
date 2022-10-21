@@ -14,8 +14,8 @@ const QuestionAnswer = () => {
                 Props <br />
                 Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.</p>
 
-                <h3>Question:  Apart from the API, what is the use of Useeffect?</h3>
-                <p> <strong>Answer : </strong> <br /> The useEffect hook takes two arguments, A callback function to define and clean up a side effect. An optional dependency array that ensures when to run a side effect defined inside the callback function.</p>
+            <h3>Question:  Apart from the API, what is the use of Useeffect?</h3>
+            <p> <strong>Answer : </strong> <br /> The useEffect hook takes two arguments, A callback function to define and clean up a side effect. An optional dependency array that ensures when to run a side effect defined inside the callback function.</p>
         </div>
     );
 };
